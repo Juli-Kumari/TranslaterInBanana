@@ -9,11 +9,12 @@ var textArea = document.querySelector("#text-input");
 
 var button = document.querySelector("#btn");
 
+var output = document.querySelector("#output")
+
 function clickEvent(){
-    console.log("Clicked!");
-    console.log(textArea.value);
+   output.innerHTML = "shdjshfjshfise "+ textArea.value;
    }
-   
+
  button.addEventListener("click", clickEvent); //  callback function
 
 
