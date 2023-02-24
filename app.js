@@ -5,8 +5,7 @@
 // alert("My name is "+ userName )
 
 var button = document.querySelector("#btn");
-
- button.addEventListener("click", function (){
- console.log("Clicked!");
-}
-)
+function clickEvent(){
+    console.log("Clicked!");
+   }
+ button.addEventListener("click", clickEvent); //  callback function
