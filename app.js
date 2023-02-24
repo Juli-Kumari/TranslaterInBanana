@@ -10,7 +10,7 @@ var button = document.querySelector("#btn");
 
 var output = document.querySelector("#output");
 
-var serverURL = "https://api.funtranslations.com/translate/minion.json"; // API
+var serverURL = "https://api.funtranslations.com/translate/minion.json"; // This API takes 5 request per hour
 
 function getTranslationURL(text) {
   return serverURL + "?"+ "text=" + text;
