@@ -12,7 +12,7 @@ var button = document.querySelector("#btn");
 var output = document.querySelector("#output")
 
 function clickEvent(){
-   output.innerHTML = "shdjshfjshfise "+ textArea.value;
+   output.innerText = "shdjshfjshfise "+ textArea.value;
    }
 
  button.addEventListener("click", clickEvent); //  callback function
